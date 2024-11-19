@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infodatas",
+  "info": {
+    "singularName": "infodata",
+    "pluralName": "infodatas",
+    "displayName": "infodata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "module": {
+      "displayName": "info",
+      "type": "component",
+      "repeatable": false,
+      "component": "info.info",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
